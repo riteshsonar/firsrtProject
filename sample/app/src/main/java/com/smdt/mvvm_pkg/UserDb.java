@@ -14,7 +14,7 @@ public abstract class UserDb extends RoomDatabase {
     public abstract UserDao userDao();
 
 
-    
+
 
     public static synchronized UserDb getInstance(Context context){
         if(instance==null){
